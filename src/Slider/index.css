@@ -1,0 +1,146 @@
+.SliderContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #315d6e;
+}
+.backBtn {
+  font-size: 15px;
+  color: #315d6e;
+}
+/* .range-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #73dae7; 
+  background: white;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  margin-bottom: 35px;
+}
+
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #73dae7; 
+  cursor: pointer;
+  border: none;
+}
+.range-slider::-ms-fill-lower {
+  background-color: #73dae7;
+}
+.range-slider::-ms-fill-upper {
+  background-color: #73dae7;
+}
+
+.range-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #73dae7;
+  cursor: pointer;
+  border: none;
+} */
+
+.circle-background {
+  fill: none;
+  stroke: #436e7f;
+  color: white;
+}
+
+.circle-progress {
+  fill: none;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.circle-dashed {
+  fill: none;
+  stroke: #819da8;
+  stroke-dasharray: 5, 10;
+  stroke-linejoin: round;
+}
+
+.circle-text {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white !important;
+}
+
+.dotted-circle {
+  display: block;
+}
+
+.circle-outline {
+  fill: none;
+  stroke: black;
+  stroke-width: 1;
+  stroke-dasharray: 2;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #315d6e;
+}
+
+.range-slider {
+  width: 200px;
+  margin-top: 50px;
+}
+#range1 {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 200px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+#range1::-webkit-slider-runnable-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+}
+
+#range1::-moz-range-track {
+  height: 15px;
+  background: #ccc;
+  border-radius: 16px;
+}
+
+#range1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #6ddce8;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: -407px 0 0 400px #6ddce8;
+}
+
+#range1::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background-color: #6ddce8;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: -407px 0 0 400px #6ddce8;
+}
